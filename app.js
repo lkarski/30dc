@@ -13,20 +13,22 @@ var pub = __dirname + '/public';
 
 var app = express();
 app.use(app.router);
-app.use(express.static(pub));
+
+console.log('__dirname: ', __dirname);
+
+app.use(express.static('css', __dirname + '/css'));
+app.use(express.static('js', __dirname + '/js'));
+app.use(express.static('img', __dirname + '/img'));
+
 app.use(express.errorHandler());
 
 // Optional since express defaults to CWD/views
-
 app.set('views', __dirname + '/views');
 
-// Set our default template engine to "jade"
-// which prevents the need for extensions
-// (although you can still mix and match)
-app.set('view engine', 'jade');
+app.set('view options', { layout: 'layout.ejs' });
 
 app.get('/', function(req, res){
-  res.render('index');
+  res.render('index.ejs', { test: 'hello world!' });
 });
 
 app.listen(3000);
