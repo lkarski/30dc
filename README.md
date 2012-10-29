@@ -19,8 +19,7 @@ framework, so you're free to architect your code in the way that you want.
 * Homepage: [http://html5boilerplate.com](http://html5boilerplate.com)
 * Twitter: [@h5bp](http://twitter.com/h5bp)
 
-
-## Quick start
+### Quick start
 
 Choose one of the following options:
 
@@ -31,8 +30,7 @@ Choose one of the following options:
    https://github.com/h5bp/html5-boilerplate.git` - and checkout the tagged
    release you'd like to use.
 
-
-## Features
+### Features
 
 * HTML5 ready. Use the new elements with confidence.
 * Cross-browser compatible (Chrome, Opera, Safari, Firefox 3.6+, IE6+).
@@ -54,8 +52,7 @@ Choose one of the following options:
 * "Delete-key friendly." Easy to strip out parts you don't need.
 * Extensive inline and accompanying documentation.
 
-
-## Documentation
+### Documentation
 
 Take a look at the [documentation table of
 contents](/h5bp/html5-boilerplate/blob/master/doc/README.md). This
@@ -63,8 +60,7 @@ documentation is bundled with the project, which makes it readily available for
 offline reading and provides a useful starting point for any documentation
 you want to write about your project.
 
-
-## Contributing
+### Contributing
 
 Anyone and everyone is welcome to
 [contribute](/h5bp/html5-boilerplate/blob/master/doc/contribute.md). Hundreds
