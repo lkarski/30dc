@@ -1,4 +1,12 @@
-# [HTML5 Boilerplate](http://html5boilerplate.com)
+# 30 Day Challenge
+
+## Development tips and tricks
+
+Use supervisor to run this project with auto reload. To use supervisor run:
+
+	/> node node_modules\supervisor\lib\cli-wrapper.js app.js
+
+## This project uses [HTML5 Boilerplate](http://html5boilerplate.com)
 
 HTML5 Boilerplate is a professional front-end template for building fast,
 robust, and adaptable web apps or sites.

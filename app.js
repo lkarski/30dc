@@ -3,7 +3,7 @@
  * Module dependencies.
  */
 
-var express = require('c:/work/projects/express/lib/express');
+var express = require('express');
 
 // Path to our public directory
 
@@ -24,8 +24,6 @@ app.use(express.errorHandler());
 
 // Optional since express defaults to CWD/views
 app.set('views', __dirname + '/views');
-
-app.set('view options', { layout: 'layout.ejs' });
 
 app.get('/', function(req, res){
   res.render('index.ejs', { test: 'hello world!' });

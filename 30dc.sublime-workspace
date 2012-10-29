@@ -7,39 +7,17 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app.js",
-			"settings":
-			{
-				"buffer_size": 672,
-				"line_ending": "Windows",
-				"name": "app.js"
-			}
-		},
-		{
-			"file": "views/index.html",
-			"settings":
-			{
-				"buffer_size": 5397,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "PLUGINS BUGS FOR ARTUR\n",
-			"settings":
-			{
-				"buffer_size": 23,
-				"line_ending": "Windows",
-				"name": "PLUGINS BUGS FOR ARTUR"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 35.0,
+		"height": 58.0,
 		"selected_items":
 		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -70,6 +48,9 @@
 	},
 	"file_history":
 	[
+		"/C/Users/s01/projects/30dc/30dc.sublime-project",
+		"/C/Users/s01/projects/30dc/views/index.html",
+		"/C/Users/s01/projects/30dc/app.js",
 		"/C/Work/projects/30dc/index.html",
 		"/C/Work/projects/30dc/views/index.html",
 		"/C/Work/projects/30dc/doc/css.md",
@@ -154,90 +135,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app.js",
-					"settings":
-					{
-						"buffer_size": 672,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								381,
-								381
-							]
-						],
-						"settings":
-						{
-							"auto_name": "app.js",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "views/index.html",
-					"settings":
-					{
-						"buffer_size": 5397,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5397,
-								5397
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1079.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"settings":
-					{
-						"buffer_size": 23,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								23,
-								23
-							]
-						],
-						"settings":
-						{
-							"auto_name": "PLUGINS BUGS FOR ARTUR",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -301,6 +200,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 217.0,
 	"status_bar_visible": true
 }
