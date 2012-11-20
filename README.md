@@ -61,3 +61,11 @@ you want to write about your project.
 Anyone and everyone is welcome to
 [contribute](/h5bp/html5-boilerplate/blob/master/doc/contribute.md). Hundreds
 of developers have helped make the HTML5 Boilerplate what it is today.
+
+## How to run this app
+
+To run this app from command line run:
+
+	/> node node_modules\supervisor\lib\cli-wrapper.js app.js
+
+This will run a supervisor for this app so will not have to restart node each time you change something in code.

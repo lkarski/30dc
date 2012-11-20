@@ -12,6 +12,8 @@ var pub = __dirname + '/public';
 // setup middleware
 
 var app = express();
+var expressEjsLayouts = require('express-ejs-layouts');
+
 app.use(app.router);
 
 console.log('__dirname: ', __dirname);
@@ -25,10 +27,14 @@ app.use(express.errorHandler());
 // Optional since express defaults to CWD/views
 app.set('views', __dirname + '/views');
 
-app.set('view options', { layout: 'layout.ejs' });
+app.set('view engine', 'ejs')
 
 app.get('/', function(req, res){
   res.render('index.ejs', { test: 'hello world!' });
+});
+
+app.get('/create', function(req, res){
+	res.render('create.ejs');
 });
 
 app.listen(3000);
