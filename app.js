@@ -28,12 +28,19 @@ app.set('views', __dirname + '/views');
 
 app.set('view engine', 'ejs')
 
-app.get('/', function(req, res){
+app.get('/', function (req, res) {
   res.render('index.ejs', { test: 'hello world!' });
 });
 
-app.get('/create', function(req, res){
+app.get('/create', function (req, res){
 	res.render('create.ejs');
+});
+
+app.post('/create', function (req, res) {
+	console.log('--- REQUEST ---');
+	console.dir(req);
+	console.log('--- RESPONSE ---');
+	console.dir(res);
 });
 
 app.listen(3000);

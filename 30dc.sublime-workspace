@@ -20,15 +20,31 @@
 			"file": "30dc.sublime-workspace.BACKUP.10244.sublime-workspace",
 			"settings":
 			{
-				"buffer_size": 4082,
-				"line_ending": "Unix"
+				"buffer_size": 0,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "app.js",
 			"settings":
 			{
-				"buffer_size": 835,
+				"buffer_size": 1032,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/index.ejs",
+			"settings":
+			{
+				"buffer_size": 1046,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/create.ejs",
+			"settings":
+			{
+				"buffer_size": 302,
 				"line_ending": "Windows"
 			}
 		}
@@ -73,6 +89,7 @@
 	},
 	"file_history":
 	[
+		"/C/Work/projects/30dc/node_modules/ejs/ejs.js",
 		"/C/Work/projects/30dc/views/index.ejs",
 		"/C/Work/projects/30dc/views/create.ejs",
 		"/C/Work/projects/30dc/views/layout.ejs",
@@ -106,7 +123,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -120,6 +137,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"input",
 			"=",
 			"='",
 			"'",
@@ -171,7 +189,7 @@
 			"P&amp;G",
 			"&amp; "
 		],
-		"reverse": true,
+		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -215,7 +233,7 @@
 					"file": "30dc.sublime-workspace.BACKUP.10244.sublime-workspace",
 					"settings":
 					{
-						"buffer_size": 4082,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
@@ -242,15 +260,15 @@
 					"file": "app.js",
 					"settings":
 					{
-						"buffer_size": 835,
+						"buffer_size": 1032,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								190,
-								190
+								933,
+								933
 							]
 						],
 						"settings":
@@ -258,7 +276,61 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "views/index.ejs",
+					"settings":
+					{
+						"buffer_size": 1046,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1046,
+								1046
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/EJS/EJS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "views/create.ejs",
+					"settings":
+					{
+						"buffer_size": 302,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								302,
+								302
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/EJS/EJS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 30.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
