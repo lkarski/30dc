@@ -3,24 +3,23 @@
  * Module dependencies.
  */
 
-var express = require('c:/work/projects/express/lib/express');
+var express = require('express'),
+	app = express(),
+	expressEjsLayouts = require('express-ejs-layouts'),
+	
+	// Path to our public directory
+	pub = __dirname + '/public';
 
-// Path to our public directory
-
-var pub = __dirname + '/public';
 
 // setup middleware
-
-var app = express();
-var expressEjsLayouts = require('express-ejs-layouts');
-
+app.use(expressEjsLayouts);
 app.use(app.router);
 
 console.log('__dirname: ', __dirname);
 
-app.use(express.static('css', __dirname + '/css'));
-app.use(express.static('js', __dirname + '/js'));
-app.use(express.static('img', __dirname + '/img'));
+app.use('/css', express.static('css', __dirname + '/css'));
+app.use('/js', express.static('js', __dirname + '/js'));
+app.use('/img', express.static('img', __dirname + '/img'));
 
 app.use(express.errorHandler());
 
