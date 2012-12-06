@@ -6,6 +6,10 @@ Use supervisor to run this project with auto reload. To use supervisor run:
 
 	/> node node_modules\supervisor\lib\cli-wrapper.js app.js
 
+You need to install and run mongodb:
+
+	/> c:\Programs\mongodb-win32-x86_64-2.2.0\bin>mongod.exe --dbpath c:\work\data\mongodb\
+
 ### This project uses [HTML5 Boilerplate](http://html5boilerplate.com)
 
 HTML5 Boilerplate is a professional front-end template for building fast,
