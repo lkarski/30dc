@@ -1,0 +1,45 @@
+<head>
+  <title>30dc</title>
+</head>
+
+<body>
+	{{#if loggingIn}}
+		logging in... please wait
+	{{else}}
+		{{#if currentUser}}
+			<div id="user-options">
+				{{> user_options}}
+			</div>
+
+			<div id="current_challenge">
+				<h1>Current challenge</h1>
+				{{> current_challenge}}
+			</div>
+
+			<div id="challenge_list">
+				<h1>Challenges</h1>
+				{{> challenge_list}}
+			</div>
+			
+			<div id="new_challenge">
+				<h1>New challenge</h1>
+				{{> new_challenge}}
+			</div>
+		{{else}}
+			<h2>Hello Stranger</h2>
+
+			<div id="login">
+				{{> google_auth}}
+				<hr />
+				OR Sign in				
+				{{> password_auth}}			
+			</div>
+		{{/if}}
+	{{/if}}
+</body>
+
+
+<template name="user_options">
+	<h2>Hello '{{currentUser.username}}'</h2>
+	<a href="#" id="logout">Log out</a>
+</template>
