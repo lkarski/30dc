@@ -1,0 +1,11 @@
+<template name="current_challenge">
+	{{current.title}}
+	<h2>Progress</h2>
+	<ul>
+		{{#each progress}}
+			<li>{{date}} | {{result}}</li>
+		{{/each}}
+	</ul>
+	<h2>Update progress</h2>
+	{{> update_progress}}
+</template>

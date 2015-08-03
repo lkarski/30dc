@@ -1,0 +1,79 @@
+# 30 Day Challenge
+
+## Development tips and tricks
+
+Use supervisor to run this project with auto reload. To use supervisor run:
+
+	/> node node_modules\supervisor\lib\cli-wrapper.js app.js
+
+You need to install and run mongodb:
+
+	/> c:\Programs\mongodb-win32-x86_64-2.2.0\bin>mongod.exe --dbpath c:\work\data\mongodb\
+
+### This project uses [HTML5 Boilerplate](http://html5boilerplate.com)
+
+HTML5 Boilerplate is a professional front-end template for building fast,
+robust, and adaptable web apps or sites.
+
+This project is the product of many years of iterative development and combined
+community knowledge. It does not impose a specific development philosophy or
+framework, so you're free to architect your code in the way that you want.
+
+* Source: [https://github.com/h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
+* Homepage: [http://html5boilerplate.com](http://html5boilerplate.com)
+* Twitter: [@h5bp](http://twitter.com/h5bp)
+
+#### Quick start
+
+Choose one of the following options:
+
+1. Download the latest stable release from
+   [html5boilerplate.com](http://html5boilerplate.com/) or a custom build from
+   [Initializr](http://www.initializr.com).
+2. Clone the git repo — `git clone
+   https://github.com/h5bp/html5-boilerplate.git` - and checkout the tagged
+   release you'd like to use.
+
+#### Features
+
+* HTML5 ready. Use the new elements with confidence.
+* Cross-browser compatible (Chrome, Opera, Safari, Firefox 3.6+, IE6+).
+* Designed with progressive enhancement in mind.
+* Includes [Normalize.css](http://necolas.github.com/normalize.css/) for CSS
+  normalizations and common bug fixes.
+* The latest [jQuery](http://jquery.com/) via CDN, with a local fallback.
+* The latest [Modernizr](http://modernizr.com/) build for feature detection.
+* IE-specific classes for easier cross-browser control.
+* Placeholder CSS Media Queries.
+* Useful CSS helpers.
+* Default print CSS, performance optimized.
+* Protection against any stray `console.log` causing JavaScript errors in
+  IE6/7.
+* An optimized Google Analytics snippet.
+* Apache server caching, compression, and other configuration defaults for
+  Grade-A performance.
+* Cross-domain Ajax and Flash.
+* "Delete-key friendly." Easy to strip out parts you don't need.
+* Extensive inline and accompanying documentation.
+
+#### Documentation
+
+Take a look at the [documentation table of
+contents](/h5bp/html5-boilerplate/blob/master/doc/README.md). This
+documentation is bundled with the project, which makes it readily available for
+offline reading and provides a useful starting point for any documentation
+you want to write about your project.
+
+#### Contributing
+
+Anyone and everyone is welcome to
+[contribute](/h5bp/html5-boilerplate/blob/master/doc/contribute.md). Hundreds
+of developers have helped make the HTML5 Boilerplate what it is today.
+
+## How to run this app
+
+To run this app from command line run:
+
+	/> node node_modules\supervisor\lib\cli-wrapper.js app.js
+
+This will run a supervisor for this app so will not have to restart node each time you change something in code.

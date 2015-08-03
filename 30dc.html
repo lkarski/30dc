@@ -3,12 +3,37 @@
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
+	{{#if loggingIn}}
+		logging in... please wait
+	{{else}}
+		{{#if currentUser}}
+			<div id="user-options">
+				{{> user_options}}
+			</div>
 
-  {{> hello}}
+			<div id="current_challenge">
+				<h1>Current challenge</h1>
+				{{> current_challenge}}
+			</div>
+
+			<div id="challenge_list">
+				<h1>Challenges</h1>
+				{{> challenge_list}}
+			</div>
+			
+			<div id="new_challenge">
+				<h1>New challenge</h1>
+				{{> new_challenge}}
+			</div>
+		{{else}}
+			<h2>Hello Stranger</h2>
+
+			<div id="login">
+				{{> google_auth}}
+				<hr />
+				OR Sign in				
+				{{> password_auth}}			
+			</div>
+		{{/if}}
+	{{/if}}
 </body>
-
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-</template>
